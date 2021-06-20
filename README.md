@@ -1,19 +1,23 @@
-# Inmana
+![](/readme/logo.png)
 
-To start your Phoenix server:
+Prevenção de perdas com gerenciamento inteligente da data de validade. O Inmana é um gerenciador de estoques que te avisa sempre que algum de seus produtos estiver chegando na data de vencimento.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+- Podem ser cadastrados restaurantes e suprimentos
+- Deve ser possível visualizar informações de um suprimento
+- Deve ser gerada uma relação de itens à vencer toda semana para cada um dos restaurantes
+- A relação de intens deve ser enviada para o e-mail do Restaurante
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Esse projeto foi proposto durante a semana Next Level Week #5 da [Rocketseat](https://rocketseat.com.br). Sobre a mentoria de [Rafael Camarda
+](https://github.com/RafaelCamarda) 🍉🍇🍒
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+⚙ **Tecnologias Utilizadas** -[Elixir](https://elixir-lang.org/) -[Phoenix](https://phoenixframework.org/)
 
-## Learn more
+Para iniciar seu Phoenix server:
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- Instale o phoenix com `mix archive.install hex phx_new 1.5.8`
+- Instale as dependências com `mix deps.get`
+- Crie e migrate seu banco de dados com `mix ecto.setup`
+- Inicie o Phoenix endpoint com `mix phx.server`
+- Caso precise, alterar as configurações do banco de dados pelo arquivo `dev.exs` e `config/test.exs`
+
+Agora você pode acessar [`localhost:4000`](http://localhost:4000) pelo seu navegador.
