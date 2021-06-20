@@ -1,5 +1,5 @@
 defmodule InmanaWeb.RestaurantsView do
-  use InmanaWeb, :controller
+  use InmanaWeb, :view
 
   def render("create.json", %{restaurant: restaurant}) do
     %{
