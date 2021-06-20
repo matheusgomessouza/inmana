@@ -1,6 +1,6 @@
 ![](/readme/logo.png)
 
-Prevenção de perdas com gerenciamento inteligente da data de validade. O Inmana é um gerenciador de estoques que te avisa sempre que algum de seus produtos estiver chegando na data de vencimento.
+O Inmana é um gerenciador de estoques que te avisa sempre que algum de seus produtos estiver chegando na data de vencimento.
 
 - Podem ser cadastrados restaurantes e suprimentos
 - Deve ser possível visualizar informações de um suprimento
