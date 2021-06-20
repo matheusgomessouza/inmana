@@ -8,9 +8,11 @@ O Inmana é um gerenciador de estoques que te avisa sempre que algum de seus pro
 - A relação de intens deve ser enviada para o e-mail do Restaurante
 
 Esse projeto foi proposto durante a semana Next Level Week #5 da [Rocketseat](https://rocketseat.com.br). Sobre a mentoria de [Rafael Camarda
-](https://github.com/RafaelCamarda) 🍉🍇🍒
+](https://github.com/RafaelCamarda)
 
-⚙ **Tecnologias Utilizadas** -[Elixir](https://elixir-lang.org/) -[Phoenix](https://phoenixframework.org/)
+⚙ **Tecnologias Utilizadas** 
+-[Elixir](https://elixir-lang.org/) 
+-[Phoenix](https://phoenixframework.org/)
 
 Para iniciar seu Phoenix server:
 
